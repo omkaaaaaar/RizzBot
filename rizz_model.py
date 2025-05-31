@@ -2,7 +2,7 @@ import requests
 
 API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1"
 HEADERS = {
-    "Authorization": "Bearer (HF Token)"  # Replace with your actual Hugging Face token
+    "Authorization": "Bearer (HF Token, Generate and Place here)"  # Replace with your actual Hugging Face token
 }
 
 def generate_rizz(user_message):
